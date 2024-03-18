@@ -2,18 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Check URL</title>
+  <title>SafeBrowse</title>
+  <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <h1>Check URL</h1>
-  <input type="text" id="userUrl" placeholder="Enter or paste URL here">
-  <button id="checkButton">Check URL</button>
-  <h2>Checks</h2>
-  <ul>
-    <li>Language match: <span id="language"></span></li>
-    <li>Cyrillic characters: <span id="cyrillic"></span></li>
-    <li>Punycode characters: <span id="punycode"></span></li>
-  </ul>
+  <div class="container mt-4">
+    <h1 class="display-4 text-center">SafeBrowse</h1>
+    <div class="d-flex justify-content-center">
+      <input type="text" id="userUrl" class="form-control form-control-lg" placeholder="Enter or paste URL here">
+      <button id="checkButton" class="btn btn-primary ms-2">Check URL</button>
+      <button id="useCurrentTab" class="btn btn-outline-primary ms-2">Use Current Tab</button>
+    </div>
+    <h2 class="mt-4">Security Checks</h2>
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Language Match: <span id="language"></span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Cyrillic Characters: <span id="cyrillic"></span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Punycode Characters: <span id="punycode"></span>
+      </li>
+    </ul>
+  </div>
   <script src="popup.js"></script>
 </body>
 </html>

@@ -28,4 +28,3 @@ This extension helps you stay safe online by checking your URLs for suspicious c
 **Disclaimer:**
 
 This extension is a tool to help identify potential spoofing attempts. It's recommended to combine it with other security practices like checking website certificates and user reviews.
-

@@ -6,5 +6,23 @@
   "permissions": ["tabs"],
   "action": {
     "default_popup": "url_parser.html"
-  }
+  },
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self' https://cdn.jsdelivr.net; font-src 'self' https://cdn.jsdelivr.net",
+    "sandbox": "sandbox allow-scripts allow-forms"
+},
+
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["popup.css"],
+      "js": ["popup.js"]
+    }
+  ]
 }
