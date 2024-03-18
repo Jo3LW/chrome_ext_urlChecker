@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Show Current URL",
+  "version": "1.0",
+  "description": "Displays the current URL in a popup",
+  "permissions": ["tabs"],
+  "action": {
+    "default_popup": "url_parser.html"
+  }
+}
