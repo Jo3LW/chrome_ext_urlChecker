@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
   useCurrentTabButton.addEventListener("click", function () {
       chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
         if (tabs && tabs[0]) {
-          userUrlInput.value = tabs[0].url; // Set the input value to current tab's URL
+          userUrlInput.value = tabs[0].url;
         } else {
           console.error("Error retrieving active tab information");
         }

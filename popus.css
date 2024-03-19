@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .btn-primary {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+  }
+  
+  .btn-outline-primary {
+    color: #4CAF50;
+    border-color: #4CAF50;
+  }
+  
+  .list-group-item {
+    border-color: #ddd;
+  }
+  
+  .logo {
+    width: 250px; 
+    height: auto;
+  }

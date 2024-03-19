@@ -36,6 +36,7 @@ This extension is a tool to help identify potential spoofing attempts. It's reco
 
 ## UI Screenshot
 
-![UI Screenshot](./UI.png)
+<img src="./UI.png" alt="UI Screenshot" width="300">
+
 
 *Screenshot of the extension's user interface*
