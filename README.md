@@ -1,3 +1,5 @@
+![App Logo](./logo.png)
+
 # Protect Yourself From Spoof Websites: Check URL Characters
 
 This extension helps you stay safe online by checking your URLs for suspicious characters that could be used in website spoofing attempts.
@@ -14,6 +16,7 @@ This extension helps you stay safe online by checking your URLs for suspicious c
 **Features:**
 
 * Easy to use: Simply enter a URL or click a button.
+![Alt text](./UI.png "UI Screenshot")
 * No modifications: The extension doesn't modify your data; it provides information for you to make informed decisions.
 * Supports user-entered URLs and active tab checking.
 
